@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: max-content; /* this value is giving me problems, the first renoir is disappearing */ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(147, 89, 89);
+}
+
+#contributeForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.contributeInput {
+    margin: 10px;
+}
+
+/* Styling of the different titles */
+h1{
+    font-size: 80px;
+    font-weight: 100;
+    color: beige;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 100;
+    color: beige;
+}
+
+h4{
+    font-size: 40px;
+    font-weight: 100;
+    color: beige;
+}
+
+p{
+    font-size: 50px;
+    font-weight: 80px;
+    color:beige;
+}
+
+
+.slider {
+    border-radius: 20px;
+    display: flex;
+    background-color: rgb(109, 52, 52);
+    border: yellowgreen 5px solid;
+    flex-wrap: wrap;
+}
+
+/* Styling of the frame that will contain the artworks */
+.frame{
+    height: 500px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.painting{
+    position: center;
+
+}
+
+.frame:hover{
+    padding: 30px;
+    transition-duration: 200ms;
+}
+
+
+.footer{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    background-color:beige
+}
+
+.btn-infos{
+    background-color: bisque;
+    
+}
+
+.btn-infos:hover {
+    background-color: rgb(247, 189, 119);
+}
+
+footer{
+    height: 100px;
+ 
+    margin-top: 20px;
+ 
+}
+
+.indexFooter{
+    border-radius: 20px;
+    background-color: rgb(133, 8, 8);
+    padding: 20px;
+   
+    border-style:ridge;
+    margin-bottom: 40px;
+
+}
+
+.anchor_link{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100px;
+    color: beige;
+}
+
+#followerAnchorLink{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100px;
+    color: beige;
+}
+
+
+.preferenceImage{
+    height: 100px;
+    width: 80px;
+    margin: 10px;
+}
+
+.imagesContainer{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: rgb(133, 8, 8);
+    padding: 5px;
+    border-style:ridge;
+    margin-top: 20px;
+}
+
+.paragraph{
+    font-size: 60px;
+    color: beige;
+    font-weight: 100px;
+}
+
+.frame_info{
+    height: 400px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#impressionismChoiceButton{
+    height: 50px;
+    width: 100px;
+    margin-right: 20px;
+    background-color: beige;
+    border-radius: 8px;
+}
+
+#expressionismChoiceButton{
+    height: 50px;
+    width: 100px;
+    background-color: beige;
+    border-radius: 8px;
+}
+
+.choiceButtons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.buttonsBelow{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}

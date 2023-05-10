@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expressionist artworks</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>This is our expressionist artwork collection</h1>
+
+    <div class="slider">
+            <div class="frame">
+                    <img src="static/jawlensky-vrouwenkop.jpg" alt="" height="400px" width="360">
+                    <div class="footer">
+                        <form action="/info" method="get">
+                            <input type="submit" value="Artwork infos" class="btn-infos" class="painting" name="vrouwenkop">
+                        </form>
+                    </div>
+            </div>
+            <div class="frame">
+                <img src="static/munch-the-scream.jpg" alt="" height="400" width="360" >
+                <div class="footer">
+                    <form action="/info" method="get">
+                        <input type="submit" value="Artwork infos" class="btn-infos" class="painting" name="scream">
+                    </form>
+                </div>
+            </div>
+            <div class="frame">
+                <img src="static/kandinsky-murnau.jpg" alt="" height="400" width="360">
+                <div class="footer">
+                    <form action="/info" method="get">
+                        <input type="submit" value="Artwork infos" class="btn-infos" class="painting" name="murnau">
+                    </form>
+                   
+                </div>
+            </div>
+            <div class="frame">
+                <img src="static/nolde-candle-dancers.jpg" alt="" height="400" width="360">
+                <div class="footer">
+                    <form action="/info" method="get">
+                        <input type="submit" value="Artwork infos" class="btn-infos" class="painting" name="dancers">
+                    </form>
+                    
+                </div>
+            </div>
+            <div class="frame">
+                <img src="static/nolde-junks.jpg" alt="" height="400" width="360">
+                <div class="footer">
+                    <form action="/info" method="get">
+                        <input type="submit" value="Artwork infos" class="btn-infos" class="painting" name="junks">
+                    </form>
+                    
+                </div>
+            </div>
+            
+    </div>
+           <!-- divider containing the link to the welcome page -->
+    <div>
+        <footer>
+            <a href="/" class="anchor_link">To the welcome page...</a><br>
+            <!-- <a href="/info" class="anchor_link">To the artworks info page...</a> -->
+        </footer>  
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>

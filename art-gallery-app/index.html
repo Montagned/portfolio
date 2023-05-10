@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Art galerie app</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div>
+        <h1>Welcome to our online art galerie!</h1>
+        <h2>Please register with the form here below...</h2> 
+    </div>
+    
+   <div>
+            <input id="textBox" type="text" placeholder="Enter your full name..." >
+            <input id="addFullNameButton" type="submit" value="Click to submit"> <br>
+            <!-- <input id="textBoxClear" type="text" placeholder="Enter your full name..."> -->
+            <input id="clearButton" type="submit" value="log out"> 
+            <!-- onClick="window.location.reload()" -->
+   </div>
+        
+        
+    <br>   
+  <!-- Buttons to choose from an art preference -->
+    <div>
+        <h4>I'm interested in...</h4>
+        <div class="choiceButtons">
+            <form action="/" method="get">
+                <input id="impressionismChoiceButton" type="submit" value="Impressionism" name="impr">
+            
+                <input id="expressionismChoiceButton" type="submit" value="Expressionism" name="expr">
+            </form>
+                
+        </div>
+            
+            
+    </div>
+
+    <br>
+    <!-- This divider will host the message to the user, once he/she submitted the full name -->
+    <div id="welcomeMessage">
+      
+    </div>
+    <br>
+    <!-- This divider will host the four pictures for the follower art preferences -->
+    <div id="parent">
+
+    </div>
+    <br>
+    <!-- Links to visit the impressionist and expressionist web pages. -->
+    <div>
+        <footer class="indexFooter">
+            <a href="/impressionism" class="anchor_link">See our impressionist artwork collection</a> <br><br>
+            <a href="/expressionism" class="anchor_link">See our expressionist artwork collection</a>
+        </footer>
+    <!-- Link to visit the followers.html page. Password: g@llery -->
+    </div>
+    <div class="buttonsBelow">
+        <a href="/preferences"><input type="button" value="intranet"></a>
+
+        <form action="/" method="get">
+            <input id="getItemBox" type="text" placeholder="" name="followersInfos">
+            <input id="followUsButton" type="submit" value="Follow us">
+        </form>
+        
+    </div>
+    
+   <script src="static/script.js"></script>
+</body>
+</html>
