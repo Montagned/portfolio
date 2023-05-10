@@ -1,0 +1,37 @@
+#title {
+    color: blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#subtitle {
+    color: rgb(118, 37, 188);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#button1 {
+    background-color: lightcoral;
+}
+
+#button1:hover {
+    background-color: lightsalmon;
+}
+
+#button2 {
+    background-color: violet;
+}
+
+#button2:hover {
+    background-color: rgb(255, 186, 255);
+}
+
+#button3 {
+    background-color: orangered;
+}
+
+#button3:hover {
+    background-color: lightpink;
+}
+
+p {
+    color: darkblue;
+}

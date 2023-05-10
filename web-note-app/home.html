@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1 id="title">Welcome to the homepage</h1>
+
+    <hr>
+
+    <form action="/notes" method="get">
+        <input type="text" placeholder="Add a note..." name="new_note">
+        <input id="button1" type="submit" value="Add a note">
+    </form><br>
+    
+    <!-- This button brings the user to the notes.html page -->
+    <a  href="/notes"><input id="button2" type="button" value="View all notes"></a><br><br>
+
+    <form action="/search" method="get">
+        <input type="text" placeholder="Enter a note to search..." name="searched_note">
+        <input id="button3" type="submit" value="Search">
+    </form><br>
+
+</body>
+</html>
